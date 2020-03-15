@@ -1,0 +1,10 @@
+html {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+}
