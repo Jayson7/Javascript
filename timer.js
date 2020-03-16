@@ -3,14 +3,14 @@ var seconds = 0;
 
 function ptimer() {
     document.getElementById("timer").innerHTML = seconds + " seconds have passed ";
-    
- seconds++;
+
+    seconds++;
 }
 
 
 function start() {
     ID = window.setInterval(ptimer(), 6000);
-    
+
 }
 
 function stop() {
